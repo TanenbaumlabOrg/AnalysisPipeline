@@ -1,0 +1,38 @@
+name: pipeline
+channels:
+  - conda-forge
+  - defaults
+  - gurobi
+  - funkelab
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.12
+  - pip
+  - pyqt
+  - openjdk=23.0.2
+  - pyimagej=1.7.0
+  - dask
+  - matplotlib
+  - ilpy
+  - pip:
+    - jupyter
+    - napari[all]
+    - nd2==0.10.3
+    - trackastra[ilp]==0.3.2
+    - spotiflow==0.5.7
+    - laptrack==0.17.0
+    - cellpose[gui]==3.1.1.2
+    - scikit-image==0.25.2
+    - scikit-learn==1.7.0
+    - scipy
+    - openpyxl
+    - napari-animation
+    - ray
+    - torch
+    - torchvision
+    - imageio
+    - mahotas
+    - distinctipy
+    - jdcal
+    - lxml

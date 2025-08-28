@@ -1,0 +1,23 @@
+name: pipeline_deepblink
+channels:
+  - conda-forge
+  - defaults
+  - nvidia
+dependencies:
+  - python=3.9
+  - pip
+  - cudatoolkit=11.8.0
+  - pip:
+    - jupyter
+    - napari[all]
+    - nd2==0.10.3
+    - numpy==1.24.3
+    - matplotlib>=3.0.0
+    - requests>=2.0.0
+    - pandas>=1.0.0
+    - pillow>=7.0.0
+    - scikit-image>=0.16.2
+    - scipy>=1.4.0
+    - tensorflow[and-cuda]==2.14
+    - deepblink==0.1.4
+    - jdcal
