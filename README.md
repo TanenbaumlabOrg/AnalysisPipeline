@@ -18,6 +18,7 @@ Functonality can be extended by [SingleObjectGrid](https://github.com/TanenbaumL
 - PyImageJ[^5][^6] (FIJI launch)
     - MIST[^7] (Stitching)
     - TrackMate[^8] (Cell tracking)
+- TrackAstra[^15] (Cell tracking)
 - CellPose[^9] (Cell segmentation)
 - SpotiFlow[^10] (Spot detection)
 - Scikit-Image[^11] (Feature extraction)
@@ -65,3 +66,5 @@ Potential applications include tracking of socRNA spots[^2], and RSV vRNPs[^3].
 [^13]: https://github.com/cgohlke/tifffile
 
 [^14]: Fukai, Y. T. & Kawaguchi, K. LapTrack: linear assignment particle tracking with tunable metrics. Bioinformatics 39, (2023).
+
+[^15]: Gallusser, B. & Weigert, M. Trackastra: Transformer-based cell tracking for live-cell microscopy.
